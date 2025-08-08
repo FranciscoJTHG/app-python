@@ -19,7 +19,11 @@ jobs:
     - uses: actions/setup-python@v4
       with:
         python-version: ${{ matrix.python-version }}
-        
+
+    - name: Limpiar cache de pip
+      run: |
+        rm -rf ~/.cache/pip
+
     - name: Instalar dependencias
       run: pip install -r requirements.txt
 
