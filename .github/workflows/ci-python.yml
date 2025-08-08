@@ -25,6 +25,7 @@ jobs:
 
     - name: Ejecutar tests
       run: |
+        export PYTHONPATH=$PYTHONPATH:.
         pytest tests/ -v
 
     - name: Ejecutar con cobertura
