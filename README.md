@@ -1,5 +1,13 @@
 # App-python
 
+## Estado de CI/CD
+
+| Workflow           | Estado (rama main)                                                                                                         |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| **CI Básico**      | [![CI Básico Python](https://github.com/tu-usuario/App-python/actions/workflows/ci-python.yml/badge.svg?branch=main)](https://github.com/tu-usuario/App-python/actions/workflows/ci-python.yml)          |
+| **CI Matriz**      | [![CI Python Matrix](https://github.com/tu-usuario/App-python/actions/workflows/ci-matrix.yml/badge.svg?branch=main)](https://github.com/tu-usuario/App-python/actions/workflows/ci-matrix.yml)        |
+| **Build Docker**   | [![Build Docker](https://github.com/tu-usuario/App-python/actions/workflows/docker-build.yml/badge.svg?branch=main)](https://github.com/tu-usuario/App-python/actions/workflows/docker-build.yml) |
+
 Aplicación web simple desarrollada con Flask.
 
 ## Características
@@ -26,7 +34,7 @@ Aplicación web simple desarrollada con Flask.
 
 1.  Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/App-python.git
+    git clone https://github.com/FranciscoJTHG/App-python.git
     ```
 2.  Navega al directorio del proyecto:
     ```bash
@@ -62,4 +70,3 @@ El proyecto utiliza GitHub Actions para la integración continua. Los workflows 
 
 *   [Flask](https://flask.palletsprojects.com/) - El framework web utilizado.
 *   [Pytest](https://docs.pytest.org/) - Para los tests.
-
