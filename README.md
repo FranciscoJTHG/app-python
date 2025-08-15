@@ -2,11 +2,11 @@
 
 ## Estado de CI/CD
 
-| Workflow           | Estado (rama main)                                                                                                         |
+| Workflow           | Estado (rama master)                                                                                                         |
 | ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
-| **CI Básico**      | [![CI Básico Python](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-python.yml/badge.svg?branch=main)](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-python.yml)          |
-| **CI Matriz**      | [![CI Python Matrix](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-matrix.yml/badge.svg?branch=main)](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-matrix.yml)        |
-| **Build Docker**   | [![Build Docker](https://github.com/FranciscoJTHG/App-python/actions/workflows/docker-build.yml/badge.svg?branch=main)](https://github.com/FranciscoJTHG/App-python/actions/workflows/docker-build.yml) |
+| **CI Básico**      | [![CI Básico Python](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-python.yml/badge.svg?branch=master)](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-python.yml)          |
+| **CI Matriz**      | [![CI Python Matrix](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-matrix.yml/badge.svg?branch=master)](https://github.com/FranciscoJTHG/App-python/actions/workflows/ci-matrix.yml)        |
+| **Build Docker**   | [![Build Docker](https://github.com/FranciscoJTHG/App-python/actions/workflows/docker-build.yml/badge.svg?branch=master)](https://github.com/FranciscoJTHG/App-python/actions/workflows/docker-build.yml) |
 
 Aplicación web simple desarrollada con Flask.
 
